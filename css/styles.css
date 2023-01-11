@@ -37,3 +37,8 @@ button {
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.wrapper {
+min-height: 100%;
+overflow: hidden;
+}
