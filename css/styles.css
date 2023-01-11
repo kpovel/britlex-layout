@@ -5,6 +5,8 @@ h4,
 p {
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 h1 {
@@ -25,7 +27,6 @@ button {
   cursor: pointer;
 }
 
-
 .list {
   list-style: none;
 }
@@ -34,11 +35,35 @@ button {
   text-decoration: none;
 }
 
+html,
 body {
+  height: 100%;
   font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
-min-height: 100%;
-overflow: hidden;
+  min-height: 100%;
+  overflow: hidden;
 }
+
+.container {
+  max-width: 1338px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* --Skills--------------------------------------- */
+.section-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.section-subtitle {
+  font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #263238;
+}
+
