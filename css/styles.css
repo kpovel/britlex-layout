@@ -52,6 +52,7 @@ body {
   font-size: 36px;
   line-height: 54px;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .header-logo__grey {
@@ -69,6 +70,7 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: var(--outer-space-color);
+  cursor: pointer;
 }
 
 .header-button {
@@ -81,4 +83,78 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.burger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 1600px) {
+  .wrapper {
+    max-width: 930px;
+  }
+
+  .header {
+    padding: 25px 0;
+  }
+
+  .header-logo {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .header-nav__link {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .header-button {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 27px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    max-width: 690px;
+  }
+
+  .header {
+    padding: 39px 0;
+  }
+
+  .header-nav, .header-button {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    width: 30px;
+    height: 17px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 510px;
+  }
+
+  .header {
+    padding: 39px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .wrapper {
+    max-width: 290px;
+  }
+
+  .header {
+    padding: 39px 0 11px 0;
+  }
 }
