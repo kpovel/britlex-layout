@@ -1,0 +1,9 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="burger-menu" viewBox="0 0 56 32">
+            <path fill="#39515e" style="fill: var(--color1, #39515e)" d="M1.882 0h52.706c1.040 0 1.882 0.843 1.882 1.882v1.882c0 1.040-0.843 1.882-1.882 1.882h-52.706c-1.040 0-1.882-0.843-1.882-1.882v-1.882c0-1.040 0.843-1.882 1.882-1.882z"></path>
+            <path fill="#39515e" style="fill: var(--color1, #39515e)" d="M1.882 13.176h52.706c1.040 0 1.882 0.843 1.882 1.882v1.882c0 1.040-0.843 1.882-1.882 1.882h-52.706c-1.040 0-1.882-0.843-1.882-1.882v-1.882c0-1.040 0.843-1.882 1.882-1.882z"></path>
+            <path fill="#39515e" style="fill: var(--color1, #39515e)" d="M1.882 26.353h36.178c1.040 0 1.882 0.843 1.882 1.882v1.882c0 1.040-0.843 1.882-1.882 1.882h-36.178c-1.040 0-1.882-0.843-1.882-1.882v-1.882c0-1.040 0.843-1.882 1.882-1.882z"></path>
+        </symbol>
+    </defs>
+</svg>
