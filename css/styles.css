@@ -95,7 +95,7 @@ body {
   }
 
   .header {
-    padding: 25px 0;
+    padding: 25px 0 68px 0;
   }
 
   .header-logo {
@@ -144,7 +144,7 @@ body {
   }
 
   .header {
-    padding: 39px 0;
+    padding: 39px 0 11px 0;
   }
 }
 
@@ -154,6 +154,6 @@ body {
   }
 
   .header {
-    padding: 39px 0 11px 0;
+    padding: 36px 0 29px 0;
   }
 }
