@@ -73,9 +73,9 @@ body {
 .section-subtitle {
   font-weight: 600;
   font-size: 30px;
-  line-height: 45px;
+  line-height: 1.5;
   color: var(--color-subtitle);
-  margin-top: 24px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -103,6 +103,7 @@ body {
 .section-item {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   background-color: var(--section-color);
 }
 
@@ -161,4 +162,300 @@ body {
   padding-left: 18px;
   padding-right: 18px;
   padding-top: 32px;
+}
+
+/* ---992------------------------------ */
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 929px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 2.22;
+  }
+
+  .section-subtitle {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 2.5;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .section-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .paragraph-first {
+    margin-bottom: 20px;
+  }
+  .paragraph-second {
+    margin-bottom: 30px;
+  }
+
+  .skills-button {
+    width: 196px;
+    height: 57px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .skills-list {
+    grid-gap: 13px;
+  }
+
+  .skill-img-speaking {
+    width: 260px;
+    height: 260px;
+  }
+
+  .skill-img-writing {
+    width: 205px;
+    height: 205px;
+  }
+
+  .skill-img-reading {
+    width: 243px;
+    height: 162px;
+    margin-bottom: 40px;
+  }
+
+  .skill-img-listening {
+    width: 254px;
+    height: 169px;
+  }
+
+  .skill-speaking {
+    width: 303px;
+    height: 696px;
+    padding-left: 28px;
+    padding-right: 13px;
+    padding-top: 0;
+  }
+
+  .writing-skill {
+    width: 302px;
+    height: 442px;
+    padding-left: 29px;
+    padding-right: 12px;
+    padding-top: 10px;
+  }
+
+  .reading-skill {
+    width: 304px;
+    height: 442px;
+    padding-left: 26px;
+    padding-right: 30px;
+    padding-top: 10px;
+  }
+
+  .listening-skill {
+    width: 616px;
+    height: 241px;
+    padding-left: 29px;
+    padding-right: 18px;
+    padding-top: 0;
+  }
+}
+
+/* ---768------------------------------ */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 690px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2.67;
+  }
+
+  .section-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .section-paragraph {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.54;
+  }
+
+  .paragraph-first {
+    margin-bottom: 20px;
+  }
+  .paragraph-second {
+    margin-bottom: 30px;
+  }
+
+  .skills-button {
+    width: 178px;
+    height: 50px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .skills-list {
+    grid-gap: 10px;
+  }
+
+  .skill-img-speaking {
+    width: 214px;
+    height: 214px;
+  }
+
+  .skill-img-writing {
+    width: 200px;
+    height: 200px;
+  }
+
+  .skill-img-reading {
+    width: 216px;
+    height: 144px;
+    margin-bottom: 40px;
+  }
+
+  .skill-img-listening {
+    width: 202px;
+    height: 134px;
+  }
+
+  .skill-speaking {
+    width: 224px;
+    height: 662px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 31px;
+  }
+
+  .writing-skill {
+    width: 227px;
+    height: 441px;
+    padding-left: 29px;
+    padding-right: 12px;
+    padding-top: 10px;
+  }
+
+  .reading-skill {
+    width: 228px;
+    height: 442px;
+    padding-left: 26px;
+    padding-right: 30px;
+    padding-top: 10px;
+  }
+
+  .listening-skill {
+    width: 462px;
+    height: 210px;
+    padding-left: 29px;
+    padding-right: 18px;
+    padding-top: 0;
+  }
+
+  .section-item-listening {
+    gap: 0;
+    align-items: flex-end;
+    padding-bottom: 10px;
+  }
+}
+/* ---575------------------------------ */
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 536px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.5;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .section-paragraph {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .paragraph-first {
+    margin-bottom: 0;
+  }
+  .paragraph-second {
+    margin-bottom: 0;
+  }
+
+  .skills-button {
+    width: 200px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .skill-img-speaking {
+    width: 185px;
+    height: 185px;
+  }
+
+  .skill-img-writing {
+    width: 182px;
+    height: 182px;
+  }
+
+  .skill-img-reading {
+    width: 198px;
+    height: 132px;
+    margin-bottom: 40px;
+  }
+
+  .skill-img-listening {
+    width: 206px;
+    height: 137px;
+  }
+
+  .skill-speaking,
+  .writing-skill,
+  .reading-skill,
+  .listening-skill {
+    width: 240px;
+    height: 534px;
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 10px;
+  }
+
+  .section-item-listening {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0;
+    padding-bottom: 10px;
+  }
 }
