@@ -1,0 +1,60 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-container {
+
+}
+
+.text-block {
+}
+
+.text-block__center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-title {
+  display: inline-block;
+  width: 386px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  margin: 0 0 20px;
+}
+
+.bulb-icon{
+  width: 85px;
+  height: 85px;
+}
+
+.hero-description {
+  width: 540px;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 20px 0 30px 0;
+
+  color: #8F95A5;
+}
+
+.button-hero {
+  width: 426px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: var(--outer-space-color);
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.learning-language {
+}
+
+.learning-language__icon {
+}

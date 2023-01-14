@@ -42,7 +42,6 @@ body {
 .header {
   margin: 0 auto;
   padding: 55px 0;
-  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,7 +74,7 @@ body {
 
 .header-button {
   width: 312px;
-  height: 70px;
+  height: 64px;
   border: 2px solid var(--outer-space-color);
   border-radius: 10px;
   font-size: 20px;
