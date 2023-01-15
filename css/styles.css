@@ -104,6 +104,7 @@ body {
   display: flex;
   flex-direction: column;
     background-color: var(--section-color);
+    border-radius: 10px;
 }
 
 .section-item-listening {
