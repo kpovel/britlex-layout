@@ -42,7 +42,6 @@ body {
 .header {
   margin: 0 auto;
   padding: 55px 0;
-  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,7 +74,7 @@ body {
 
 .header-button {
   width: 312px;
-  height: 70px;
+  height: 64px;
   border: 2px solid var(--outer-space-color);
   border-radius: 10px;
   font-size: 20px;
@@ -96,7 +95,7 @@ body {
   }
 
   .header {
-    padding: 25px 0;
+    padding: 25px 0 68px 0;
   }
 
   .header-logo {
@@ -145,7 +144,7 @@ body {
   }
 
   .header {
-    padding: 39px 0;
+    padding: 39px 0 11px 0;
   }
 }
 
@@ -155,6 +154,6 @@ body {
   }
 
   .header {
-    padding: 39px 0 11px 0;
+    padding: 36px 0 29px 0;
   }
 }
