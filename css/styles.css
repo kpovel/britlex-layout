@@ -269,7 +269,7 @@ body {
 /* ---768------------------------------ */
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 690px;
+    max-width: 712px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -346,7 +346,7 @@ body {
 
   .writing-skill {
     width: 227px;
-    height: 441px;
+    height: 442px;
     padding-left: 29px;
     padding-right: 12px;
     padding-top: 10px;
@@ -375,9 +375,9 @@ body {
   }
 }
 /* ---575------------------------------ */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
   .container {
-    max-width: 536px;
+    max-width: 550px;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -398,12 +398,17 @@ body {
   }
 
   .paragraph-first {
-    margin-bottom: 0;
-  }
-  .paragraph-second {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 
+  .writing-paragraph {
+      margin-bottom: 125px;
+  }
+
+  .reading-paragraph {
+ margin-bottom: 150px;
+  }
+  
   .skills-button {
     width: 200px;
     height: 50px;
@@ -421,7 +426,7 @@ body {
   }
 
   .skill-img-speaking {
-    width: 185px;
+    width: 190px;
     height: 185px;
   }
 
@@ -431,7 +436,7 @@ body {
   }
 
   .skill-img-reading {
-    width: 198px;
+    width: 230px;
     height: 132px;
     margin-bottom: 40px;
   }
@@ -457,6 +462,15 @@ body {
     flex-direction: column-reverse;
     gap: 0;
     padding-bottom: 10px;
+    justify-content: flex-end;
+  }
+
+  .listening-skills-text {
+    margin-top: 30px;
+  }
+
+  .listening-paragraph {
+    margin-bottom: 150px;
   }
 }
 /* ---320------------------------------ */
