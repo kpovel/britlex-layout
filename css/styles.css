@@ -165,9 +165,9 @@ body {
 }
 
 /* ---992------------------------------ */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1600px) {
   .container {
-    max-width: 929px;
+    max-width: 930px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -267,7 +267,7 @@ body {
 }
 
 /* ---768------------------------------ */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .container {
     max-width: 712px;
     margin: 0 auto;
@@ -375,7 +375,7 @@ body {
   }
 }
 /* ---575------------------------------ */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .container {
     max-width: 550px;
     margin: 0 auto;
