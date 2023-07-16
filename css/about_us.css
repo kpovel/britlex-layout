@@ -1,0 +1,152 @@
+.about-usc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us_title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.about-us_content {
+  color: #8F95A5;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  width: 40.75rem;
+}
+
+.about-us_metrics {
+  display: flex;
+  gap: 131px;
+  margin-left: 2rem;
+  color: #2A3246;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.metric-category {
+  color: #8F95A5;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.business-competition {
+  width: 33.75rem;
+  height: 33.75rem;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1600px) {
+  .about-us_title {
+    font-size: 2.25rem;
+    line-height: 5rem;
+  }
+
+  .about-us_content {
+    font-size: 1rem;
+    line-height: normal;
+    width: 32.8rem;
+  }
+
+  .about-us_metrics {
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 4rem;
+    margin: 0;
+    gap: 121px;
+  }
+
+  .metric-category {
+    font-size: 1rem;
+  }
+
+  .business-competition {
+    width: 21rem;
+    height: 21rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about-us_title {
+    font-size: 1.875rem;
+  }
+
+  .about-us_content {
+    width: 20.0625rem;
+    font-size: 0.875rem;
+  }
+
+  .about-us_metrics {
+    font-size: 1.375rem;
+    line-height: 5rem;
+    gap: 50px;
+  }
+
+  .metric-category {
+    font-size: 0.8rem;
+  }
+
+  .business-competition {
+    width: 18.4375rem;
+    height: 18.4375rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-usc {
+    flex-direction: column-reverse;
+  }
+  .about-us_title {
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 5rem;
+  }
+
+  .about-us_content {
+    width: 31.875rem;
+    text-align: center;
+  }
+
+  .about-us_metrics {
+    margin: 25px 60px;
+    gap: 0;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .metric-category {
+    justify-content: space-between;
+  }
+
+  .business-competition {
+    width: 22rem;
+    height: 22rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about-us_title {
+    font-size: 1.5rem;
+  }
+
+  .about-us_content {
+    width: 17.5rem;
+    font-size: 0.8125rem;
+  }
+
+  .about-us_metrics {
+    flex-direction: column;
+
+  }
+
+  .business-competition {
+    width: 17.6875rem;
+    height: 17.6875rem;
+  }
+}
