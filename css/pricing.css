@@ -1,0 +1,141 @@
+/* landing desktop */
+.pricing-title {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--color-title);
+}
+
+.pricing-subtitle {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+  text-transform: capitalize;
+  color: var(--color-subtitle);
+}
+
+.pricing-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-paragraph);
+}
+
+.pricing-button {
+  width: 260px;
+  height: 45px;
+  background-color: var(--pricing-button);
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pricing-button-sum {
+  color: var(--color-subtitle);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.pricing-button-text {
+  color: var(--color-price);
+  font-size: 18px;
+  font-weight: 400;
+}
+/* container   max-width: 930px */
+@media screen and (max-width: 1600px) {
+  .pricing-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 2.22;
+  }
+
+  .pricing-subtitle {
+    font-size: 22px;
+    line-height: 1.55;
+  }
+
+  .pricing-paragraph {
+    font-size: 16px;
+  }
+
+  .pricing-button {
+    width: 205px;
+    height: 45px;
+  }
+
+  .pricing-button-text {
+    font-size: 16px;
+ }
+   
+}
+
+/* container    max-width: 712px */
+@media screen and (max-width: 992px) {
+  .pricing-title {
+    font-size: 30px;
+    line-height: 2.67;
+  }
+
+  .pricing-subtitle {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .pricing-paragraph {
+    font-size: 14px;
+  }
+
+  .pricing-button-sum {
+   font-size: 22px;
+  }
+
+}
+
+/* container max-width: 550px*/
+@media screen and (max-width: 768px) {
+  .pricing-title {
+    font-size: 30px;
+    line-height: 2.67;
+  }
+
+  .pricing-subtitle {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  .pricing-paragraph {
+    text-align: center;
+  }
+
+
+}
+
+/* container    max-width: 293px */
+@media screen and (max-width: 575px) {
+  .pricing-title {
+    font-size: 24px;
+    line-height: 3.33;
+  }
+
+  .pricing-subtitle {
+    font-size: 18px;
+    line-height: 1.56;
+  }
+
+  .pricing-paragraph {
+    font-size: 13px;
+  }
+
+  .pricing-button {
+    width: 170px;
+    height: 37px;
+  }
+   .pricing-button-sum {
+   font-size: 18px;
+  }
+
+  .pricing-button-text {
+    font-size: 14px;
+ }
+}
