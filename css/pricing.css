@@ -1,0 +1,345 @@
+/* landing desktop */
+.pricing {
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+
+.pricing-title {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--color-title);
+}
+
+.pricing-subtitle {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+  text-transform: capitalize;
+  color: var(--color-subtitle);
+  margin-top: 31px;
+  margin-bottom: 20px;
+}
+
+.pricing-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-paragraph);
+  line-height: 1.6;
+}
+
+.pricing-button {
+  width: 260px;
+  height: 45px;
+  background-color: var(--pricing-button);
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pricing-button-sum {
+  color: var(--color-subtitle);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.pricing-button-text {
+  color: var(--color-price);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pricing-img-self-study {
+  padding: 19px 73px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 426px;
+  height: 320px;
+}
+
+.pricing-img-online-classes {
+  display: flex;
+  width: 426px;
+  height: 320px;
+  padding: 36px 18px 36.48px 18px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.pricing-img-personal-tuition {
+  display: flex;
+  width: 426px;
+  height: 320px;
+  padding: 20px 56px 19px 55px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.pricing-list {
+  display: flex;
+  gap: 30px;
+}
+
+.pricing-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 426px;
+  height: 584px;
+}
+
+/* container   max-width: 930px */
+@media screen and (max-width: 1600px) {
+  .pricing {
+    margin-top: 125px;
+    margin-bottom: 125px;
+  }
+
+  .pricing-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 2.22;
+  }
+
+  .pricing-subtitle {
+    font-size: 22px;
+    line-height: 1.55;
+  }
+
+  .pricing-paragraph {
+    font-size: 16px;
+  }
+
+  .pricing-button {
+    width: 205px;
+    height: 45px;
+  }
+
+  .pricing-button-text {
+    font-size: 16px;
+  }
+
+  .pricing-img-self-study {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 222px;
+    height: 222px;
+  }
+
+  .pricing-img-online-classes {
+    display: flex;
+    width: 267px;
+    height: 195px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .pricing-img-personal-tuition {
+    display: flex;
+    width: 242px;
+    height: 220px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .pricing-item {
+    width: 320px;
+    height: 500px;
+  }
+
+  .pricing-list {
+    gap: 15px;
+  }
+
+  .pricing-subtitle-second {
+    margin-top: 56px;
+  }
+}
+
+/* container    max-width: 712px */
+@media screen and (max-width: 992px) {
+  .pricing {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .pricing-title {
+    font-size: 30px;
+    line-height: 2.67;
+  }
+
+  .pricing-subtitle {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .pricing-paragraph {
+    font-size: 14px;
+  }
+
+  .pricing-button-sum {
+    font-size: 22px;
+  }
+
+  .pricing-img-self-study {
+    display: flex;
+    width: 12.3125rem;
+    height: 12.3125rem;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .pricing-img-online-classes {
+    display: flex;
+    width: 13.6875rem;
+    height: 10.5rem;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .pricing-img-personal-tuition {
+    display: flex;
+    width: 13.125rem;
+    height: 12.125rem;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .pricing-item {
+    width: 205px;
+    height: 460px;
+  }
+
+  .pricing-list {
+    gap: 20px;
+  }
+
+  .pricing-subtitle-second {
+    margin-top: 60px;
+  }
+}
+
+/* container max-width: 550px*/
+@media screen and (max-width: 768px) {
+  .pricing {
+    margin-top: 160px;
+    margin-bottom: 160px;
+  }
+
+  .pricing-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .pricing-item {
+    width: 392px;
+    height: 500px;
+    align-items: center;
+  }
+
+  .pricing-title {
+    font-size: 30px;
+    line-height: 2.67;
+  }
+
+  .pricing-subtitle {
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+  }
+
+  .pricing-paragraph {
+    text-align: center;
+  }
+
+  .pricing-img-self-study {
+    width: 291px;
+    height: 291px;
+  }
+
+  .pricing-img-online-classes {
+    width: 314px;
+    height: 241px;
+  }
+
+  .pricing-img-personal-tuition {
+    width: 253px;
+    height: 253px;
+  }
+}
+
+/* container    max-width: 293px */
+@media screen and (max-width: 575px) {
+  .pricing {
+    margin-top: 84px;
+    margin-bottom: 84px;
+  }
+
+  .pricing-title {
+    font-size: 24px;
+    line-height: 3.33;
+  }
+
+  .pricing-subtitle {
+    font-size: 18px;
+    line-height: 1.56;
+  }
+
+  .pricing-paragraph {
+    font-size: 13px;
+  }
+
+  .pricing-button {
+    width: 170px;
+    height: 37px;
+  }
+
+  .pricing-button-sum {
+    font-size: 18px;
+  }
+
+  .pricing-button-text {
+    font-size: 14px;
+  }
+
+  .pricing-img-self-study {
+    width: 248px;
+    height: 248px;
+  }
+
+  .pricing-img-online-classes {
+    width: 241px;
+    height: 166px;
+  }
+
+  .pricing-img-personal-tuition {
+    width: 241px;
+    height: 241px;
+  }
+
+  .pricing-item {
+    width: 300px;
+    height: 380px;
+    align-items: center;
+    gap: 10px;
+  }
+}
