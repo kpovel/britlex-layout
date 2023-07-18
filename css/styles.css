@@ -20,7 +20,9 @@ ul {
 }
 
 img {
-  display: block;
+  width: 100%;
+  margin: auto;
+   display: block;
 }
 
 button {
